@@ -1,6 +1,6 @@
 # tanpa constructor
 class Mahasiswa:
-    num = 0  #public 
+    num = 0  #class field public 
     name = ""
     
     def perkenalan(self, nim, name):

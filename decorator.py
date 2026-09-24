@@ -32,7 +32,7 @@ print(BankAcc.no)
 
 #getter& setter cr lama
 class Items:
-    _name = ""
+    _name = "" #class field private
 
     def set_name(self, name):
         if name == "":

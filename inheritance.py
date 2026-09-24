@@ -1,7 +1,7 @@
 #parent
-class Kendaraan:
+class Kendaraan:  # parent class/ sub class
     def __init__(self, merk, thn):
-        self.merk = merk
+        self.merk = merk 
         self.thn = thn
 
     def info(self):
@@ -10,7 +10,7 @@ class Kendaraan:
     def nyalakan(self):
         print(f"{self.info()} dinyalakan!")
 #child
-class Mobil(Kendaraan):
+class Mobil(Kendaraan): # child class/ sub class
     def __init__(self, merk, thn, jumlah_roda):
         super().__init__(merk, thn)
         self.jumlah_roda = jumlah_roda
